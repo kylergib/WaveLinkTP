@@ -28,11 +28,13 @@ Wave Link Touch Portal Plugin
 - Input Volume: 
   - Connects the slider to the what input you choose. 
   - Target either the monitor mix, stream mix or both.
-  - For some reason if you try to use multiple sliders with different inputs then one slider may control both sliders (but it does not change both inputs volume in wave link)
+  - ~~For some reason if you try to use multiple sliders with different inputs then one slider may control both sliders (but it does not change both inputs volume in wave link)~~
+    - Apparently, if you add any sliders you want and then restart the Wave Link plugin the sliders start to act normally?
 
 - Output Volume:
   -  Connects the slider to monitor mix, stream mix or both.
-  -  For some reason if you try to use multiple sliders with different outputs then one slider may control both sliders (but it does not change both outputs volume in wave link)
+  -  ~~For some reason if you try to use multiple sliders with different outputs then one slider may control both sliders (but it does not change both outputs volume in wave link)~~
+      -  Apparently, if you add any sliders you want and then restart the Wave Link plugin the sliders start to act normally?
 
 ## FAQ
 - "Local" in the actions/connectors is equal to Monitor Mix. May change in future.
