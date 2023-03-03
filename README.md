@@ -42,3 +42,9 @@ Wave Link Touch Portal Plugin
 - I do not think States work, the states were created just to use with the actions, so for example you try to use a state with an if/else it will be blank. 
   - it may be possible to manually type in the if/else statement to correctly match what the state will be set to, but have not tried. may look into this later. 
 - If you add/remove anything from Wave Link (New input or new output), then you will either have to restart Touch Portal or the plugin for it to receive the new inputs/outputs.
+
+## Features I would like to add:
+- Toggle monitoring between Monitor Mix to Stream Mix.
+- Toggle filters on/off for inputs. 
+- Controls for wave mic (clipguard, gain, lowcut filter, etc)
+- Automatically load new changes in inputs/outputs.
