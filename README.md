@@ -1,6 +1,8 @@
 # WaveLinkTP
 Wave Link Touch Portal Plugin
 
+## Java 8 may need to be installed to be able to start he plugin
+
 ## Settings
 - IP in Plugin settings pane inside touch portal is to set the IP address where wave link is located. Keep localhost if wave link software is on the same computer as touch portal. 
   - Will have to restart plugin to make changes load. (I have had to restart Touch Portal entirely one time, so unsure if that will continue to be a problem). 
