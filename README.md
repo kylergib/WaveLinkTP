@@ -23,6 +23,7 @@ Wave Link Touch Portal Plugin
   - Switch to a specific output for your monitor mix.
   - Sometimes if you attempt to switch to an output that is already selected in Wave Link it will show that it is blank in Wave Link and not work.
     - I think I may have fixed this, but will continue to monitor just in case. 
+  - Was working and now not working?
 
 ## Connectors:
 - Input Volume: 
