@@ -38,10 +38,9 @@ Wave Link Touch Portal Plugin
 - Output Volume:
   -  Connects the slider to monitor mix, stream mix or both.
   -  ~~For some reason if you try to use multiple sliders with different outputs then one slider may control both sliders (but it does not change both outputs volume in wave link)~~
-      -  Apparently, if you add any sliders you want and then restart the Wave Link plugin the sliders start to act normally?
-      
-      
-## New in alpha - 1.0.2
+      -  Apparently, if you add any sliders you want and then restart the Wave Link plugin the sliders start to act normally? 
+
+## New in alpha 1.0.2
 Split all actions between 3 new categories - outputs, inputs and mics.
 
 I apologize, but you will need to redo your actions for WaveLinkTP in Touch Portal, so that they are pointed to the updated cateogories.
@@ -51,12 +50,13 @@ I apologize, but you will need to redo your actions for WaveLinkTP in Touch Port
 - added mic/pc mix slider and action
 - added mic output volume (headphone jack volume on mic) slider and action
 - added action to switch between monitor mix and stream mix for output monitoring
-    -  which mix is being monitored has a little green highlighted green next to it in the bottom right hand corner of wave link
+  -  which mix is being monitored has a little green highlighted green next to it in the bottom right hand corner of wave link
 - added action to enable/disable/toggle filter bypass for inputs (true means filter bypass is on, so filters will be disabled for specific input)
-- added action to update inputs/outputs/mics lists for the actions. instead of having to restart Touch Portal or the plugin for changes to take effect. 
-- put actions and connectors in alphabetical order because it was bugging me. 
-      
-## Added actions with alpha 1.0.1:
+- added action to update inputs/outputs/mics lists for the actions. instead of having to restart Touch Portal or the plugin for changes to take effect.
+- put actions and connectors in alphabetical order because it was bugging me.
+
+
+### Added actions with alpha 1.0.1:
 
 - enable/disable filters on inputs.
 - update outputs/inputs/mics with a click of a button instead of having to restart the plugin.
@@ -69,15 +69,14 @@ I apologize, but you will need to redo your actions for WaveLinkTP in Touch Port
 - "Stream" in the actions/connectors is equal to Stream Mix. 
 - I do not think States work, the states were created just to use with the actions, so for example you try to use a state with an if/else it will be blank. 
   - it may be possible to manually type in the if/else statement to correctly match what the state will be set to, but have not tried. may look into this later. 
-- If you add/remove anything from Wave Link (New input or new output), then you will either have to restart Touch Portal or the plugin for it to receive the new inputs/outputs.
+- ~~If you add/remove anything from Wave Link (New input or new output), then you will either have to restart Touch Portal or the plugin for it to receive the new inputs/outputs.~~
+  - added an action to update inputs/outputs/mics
 - Plugin has not been tested with Wave XLR because I do not have one.
-
-
-
-
+- 
 ## Features I would like to add:
-- Toggle monitoring between Monitor Mix to Stream Mix.
+- ~~Toggle monitoring between Monitor Mix to Stream Mix.~~
 - ~~Toggle filters on/off for inputs.~~
 - ~~Controls for wave mic (clipguard, gain, lowcut filter, etc)~~
 - ~~Automatically load new changes in inputs/outputs.~~
   - was not working, but added an action to update inputs/outputs/mics
+
