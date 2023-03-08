@@ -62,7 +62,6 @@ Wave Link Touch Portal Plugin
 
 
 ## Connectors:
-#### Known issue with Touch Portal. Refreshing the page works most of the time, but have had to restart Touch Portal completely to fix.
 - Input Volume: 
   - Connects the slider to the what input you choose. 
   - Target either the monitor mix, stream mix or both.
